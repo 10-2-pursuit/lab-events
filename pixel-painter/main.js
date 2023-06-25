@@ -18,3 +18,15 @@ for(let index = 0; index < 100; index++){
     })
     canvas.append(cell);
 }
+
+const reset = document.createElement('button');
+reset.setAttribute('id','reset');
+reset.setAttribute('class', 'reset');
+reset.textContent = "RESET";
+reset.addEventListener('click', event => {
+    const currentColor = document.querySelectorAll(".cell");
+    currentColor.forEach(a => a.style.backgroundColor = "white");
+});
+
+let palette = document.querySelector("#palette");
+palette.appendChild(reset);
