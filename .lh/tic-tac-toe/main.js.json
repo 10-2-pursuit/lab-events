@@ -1,0 +1,22 @@
+{
+    "sourceFile": "tic-tac-toe/main.js",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1687716123250,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687716482000,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,1 +0,0 @@\n-const \n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1687716123250,
+            "name": "Commit-0",
+            "content": "const "
+        }
+    ]
+}

@@ -1,0 +1,130 @@
+{
+    "sourceFile": "pixel-painter/index.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 28,
+            "patches": [
+                {
+                    "date": 1687713175520,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1687713180816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         <div class=\"color\" style=\"background: purple\"></div>\n         <div class=\"color\" style=\"background: white\"></div>\n       </section>\n     </div>\n-    \n+    <br\n     <footer>\n       <nav>\n         <a href=\"../index.html\">Home</a>\n         <a href=\"../tic-tac-toe/index.html\">Tic Tac Toe</a>\n"
+                },
+                {
+                    "date": 1687713188152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -25,9 +25,9 @@\n         <div class=\"color\" style=\"background: purple\"></div>\n         <div class=\"color\" style=\"background: white\"></div>\n       </section>\n     </div>\n-    <br\n+    <br /\n     <footer>\n       <nav>\n         <a href=\"../index.html\">Home</a>\n         <a href=\"../tic-tac-toe/index.html\">Tic Tac Toe</a>\n"
+                },
+                {
+                    "date": 1687713493703,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,12 @@\n     <div id=\"wrapper\">\n       <header>\n         <h1>Pixel Painter</h1>\n       </header>\n-      <main id=\"canvas\"></main>\n+      <main id=\"canvas\"></main><section>\n+        <div class=\"tic-tac-toe\"></div>\n+        <button>Reset</button>\n+      </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n         <div class=\"color\" style=\"background: red\"></div>\n@@ -25,9 +28,9 @@\n         <div class=\"color\" style=\"background: purple\"></div>\n         <div class=\"color\" style=\"background: white\"></div>\n       </section>\n     </div>\n-    <br /\n+    <br />\n     <footer>\n       <nav>\n         <a href=\"../index.html\">Home</a>\n         <a href=\"../tic-tac-toe/index.html\">Tic Tac Toe</a>\n"
+                },
+                {
+                    "date": 1687713519353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n     <div id=\"wrapper\">\n       <header>\n         <h1>Pixel Painter</h1>\n       </header>\n-      <main id=\"canvas\"></main><section>\n+      <main id=\"canvas\"><section>\n         <div class=\"tic-tac-toe\"></div>\n         <button>Reset</button>\n       </section>\n       <section id=\"current-color\"></section>\n"
+                },
+                {
+                    "date": 1687713527972,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,10 +12,11 @@\n     <div id=\"wrapper\">\n       <header>\n         <h1>Pixel Painter</h1>\n       </header>\n-      <main id=\"canvas\"><section>\n-        <div class=\"tic-tac-toe\"></div>\n+      <main id=\"canvas\">\n+        <section>\n+        <div class=\"pi\"></div>\n         <button>Reset</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713564357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n         <section>\n-        <div class=\"pi\"></div>\n-        <button>Reset</button>\n+        <div class=\"pixel-painter\"></div>\n+        <butto</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713571848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n-        <butto</button>\n+        <butto>resey</butto></button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713578297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n-        <butto>resey</butto></button>\n+        <butto>reset-button</butto></button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713583576,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n-        <butto>reset-button</butto></button>\n+        <button>reset-button</button></button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713588915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,10 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n-        <button>reset-button</button></button>\n+        <button>reset-button</button>\n+      </button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713593983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n         <button>reset-button</button>\n-      </button>\n+      <</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713599787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n         <button>reset-button</button>\n-      <</button>\n+      <button></button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713606596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n         <button>reset-button</button>\n-      <button></button>\n+      <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713612103,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter\"></div>\n         <button>reset-button</button>\n-      <button>fill-button</button>\n+        <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713661700,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n         <section>\n-        <div class=\"pixel-painter\"></div>\n+        <div class=\"pixel-painter \"></div>\n         <button>reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n"
+                },
+                {
+                    "date": 1687713668204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n         <section>\n-        <div class=\"pixel-painter \"></div>\n+        <div class=\"pixel-painter buttons\"></div>\n         <button>reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n"
+                },
+                {
+                    "date": 1687713683852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,10 +14,10 @@\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n         <section>\n-        <div class=\"pixel-painter buttons\"></div>\n-        <button>reset-button</button>\n+        <div class=\"pixel-painter-buttons\"></div>\n+        <button >reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713691152,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button >reset-button</button>\n+        <button id reset>reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713700609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button id reset>reset-button</button>\n+        <button id=\"reset-button>reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713705857,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button id=\"reset-button>reset-button</button>\n+        <button id=\"reset-button\">reset-button</button>\n         <button>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713712171,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n         <button id=\"reset-button\">reset-button</button>\n-        <button>fill-button</button>\n+        <button id>fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713719945,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n         <button id=\"reset-button\">reset-button</button>\n-        <button id>fill-button</button>\n+        <button id=\"fill\">fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713728528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -16,9 +16,9 @@\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n         <button id=\"reset-button\">reset-button</button>\n-        <button id=\"fill\">fill-button</button>\n+        <button id=\"fill-button\">ill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713734302,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button id=\"reset-button\">reset-button</button>\n-        <button id=\"fill-button\">ill-button</button>\n+        <button id=\"reset-button\">Reset-button</button>\n+        <button id=\"fill-button\">Fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713740499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,9 +15,9 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button id=\"reset-button\">Reset-button</button>\n+        <button id=\"reset-button\">Reset utton</button>\n         <button id=\"fill-button\">Fill-button</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n"
+                },
+                {
+                    "date": 1687713746013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -15,10 +15,10 @@\n       </header>\n       <main id=\"canvas\">\n         <section>\n         <div class=\"pixel-painter-buttons\"></div>\n-        <button id=\"reset-button\">Reset utton</button>\n-        <button id=\"fill-button\">Fill-button</button>\n+        <button id=\"reset-button\">Reset Button</button>\n+        <button id=\"fill-button\">Fill utton</button>\n       </section>\n       <section id=\"current-color\"></section>\n       <section id=\"palette\">\n         <div class=\"color\" style=\"background: black\"></div>\n"
+                },
+                {
+                    "date": 1687713830650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -14,9 +14,9 @@\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n         <section>\n-      \n+    \n         <button id=\"reset-button\">Reset Button</button>\n         <button id=\"fill-button\">Fill Button</button>\n       </section>\n       <section id=\"current-color\"></section>\n"
+                },
+                {
+                    "date": 1687713966777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -13,9 +13,9 @@\n       <header>\n         <h1>Pixel Painter</h1>\n       </header>\n       <main id=\"canvas\">\n-        <section>\n+        <section></section>\n         <button id=\"reset-button\">Reset Button</button>\n         <button id=\"fill-button\">Fill Button</button>\n       </section>\n       <section id=\"current-color\"></section>\n"
+                }
+            ],
+            "date": 1687713175520,
+            "name": "Commit-0",
+            "content": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>Pixel Painter🎨</title>\n    <link rel=\"stylesheet\" href=\"styles.css\" />\n    <script defer src=\"main.js\"></script>\n  </head>\n  <body>\n    <div id=\"wrapper\">\n      <header>\n        <h1>Pixel Painter</h1>\n      </header>\n      <main id=\"canvas\"></main>\n      <section id=\"current-color\"></section>\n      <section id=\"palette\">\n        <div class=\"color\" style=\"background: black\"></div>\n        <div class=\"color\" style=\"background: red\"></div>\n        <div class=\"color\" style=\"background: orange\"></div>\n        <div class=\"color\" style=\"background: yellow\"></div>\n        <div class=\"color\" style=\"background: green\"></div>\n        <div class=\"color\" style=\"background: blue\"></div>\n        <div class=\"color\" style=\"background: purple\"></div>\n        <div class=\"color\" style=\"background: white\"></div>\n      </section>\n    </div>\n    \n    <footer>\n      <nav>\n        <a href=\"../index.html\">Home</a>\n        <a href=\"../tic-tac-toe/index.html\">Tic Tac Toe</a>\n      </nav>\n    </footer>\n  </body>\n</html>\n"
+        }
+    ]
+}
