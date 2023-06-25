@@ -1,6 +1,6 @@
 
 const palette = document.getElementById("palette");
-const currentColor = document.getElementById("currentColor");
+const currentColor = document.getElementById("current-color");
 
 let canvas = document.querySelector("#canvas");
 
@@ -19,10 +19,12 @@ for(let color of colors){
 }
 
 for (let cell of cells){
-    cell.addEventListener("click",(event) => {
-        cell.style.transform = "change color"
-    });
+    cell.addEventListener("click",() => {
+     cell.style.background = currentColor.style.background;
+});
 }
+
+
 
 
 const newButton =document.createElement("button")
@@ -32,11 +34,10 @@ newDiv.append(newButton);
 palette.append(newDiv);
 
 
-newButton.addEventListener("click", ()=> {
+newButton.addEventListener("click", () => {
     for(let cell of cells){
         cell.style.background = "white";
-console.log(newButton.addEventListener)
+
     }
-    //currentColor.style.background = "white";
-})
- 
+   currentColor.style.background = "white";
+});
