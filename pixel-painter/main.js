@@ -26,7 +26,6 @@ for (let cell of cells){
 
 
 
-
 const newButton =document.createElement("button")
 newButton.textContent = "New Color"
 
