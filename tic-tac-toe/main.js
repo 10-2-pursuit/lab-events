@@ -1,14 +1,13 @@
 function makeBoard(){
-       let ticTacToe = document.getElementsByClassName("tic-tac-toe");
+       let ticTacToe = document.getElementsByClassName("tic-tac-toe")[0];
        
        for (let i =0; i < 9; i++) {
-        let div = document.createElement("div");
-        div.className = "empty square";
-        ticTacToe.appendChild(div);
+        let square = document.createElement("div");
+        square.classList.add ("empty", "square");
 
+        square.addEventListener("click")
+        ticTacToe.append(square);
 
-
-        //   x[i].style.display = "none";
         }
       }
-      makeBoard();
+     
