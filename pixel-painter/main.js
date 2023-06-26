@@ -25,7 +25,7 @@ paletteColors.forEach((color) => {
 
 const cells = document.querySelectorAll(".cell")
 cells.forEach((cell) => {
-    cell.addEventListener ("click", () => {
+    cell.addEventListener ("mouseover", () => {
     cell.style.background = currentColor.style.background;
     }); 
 });
