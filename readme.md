@@ -3,7 +3,7 @@
 Now that you know how to work with event listeners, you can build a simple pixel painter in the browser.
 
 ![Image of a completed pixel painter project.](./assets/completed-project.png)
-
+https://github.com/tonesharose31/lab-events.githttps://github.com/tonesharose31/lab-events.gitz
 ---
 
 ## Lab Setup
