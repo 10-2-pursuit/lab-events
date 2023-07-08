@@ -93,5 +93,5 @@ a:hover {
 .nav {
   display: inline-flex;
   justify-content: space-evenly;
-  padding-top: 20 px;
+  margin-top: 20 px;
 }

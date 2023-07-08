@@ -1,0 +1,26 @@
+{
+    "sourceFile": "pixel-painter/styles.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 2,
+            "patches": [
+                {
+                    "date": 1688831521200,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1688831610029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,5 +92,6 @@\n \n .nav {\n   display: inline-flex;\n   justify-content: space-evenly;\n+  margin-top: 20 px;\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1688831674011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,6 +92,6 @@\n \n .nav {\n   display: inline-flex;\n   justify-content: space-evenly;\n-  margin-top: 20 px;\n+  padding-top: 20 px;\n }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1688831521200,
+            "name": "Commit-0",
+            "content": "@import url(\"https://fonts.googleapis.com/css2?family=VT323&display=swap\");\n\nhtml,\nbody {\n  margin: 0;\n  padding: 0;\n  height: 100%;\n}\n\nh1,\nh2,\nh3,\nh4,\nh5,\nh6 {\n  font-family: \"VT323\", monospace;\n}\n\nheader,\nfooter {\n  background: #7e7f9a;\n  color: white;\n}\n\nheader h1 {\n  margin: 0 0 50px;\n  padding: 25px;\n}\n\n#canvas {\n  border: 3px solid #393e41;\n  display: grid;\n  grid-template-columns: repeat(10, 50px);\n  height: 500px;\n  margin: 0 auto;\n  width: 500px;\n}\n\n.cell {\n  border: 1px solid #393e41;\n  box-sizing: border-box;\n  display: inline-block;\n  margin: 0;\n  height: 50px;\n  width: 50px;\n}\n\n#current-color {\n  border: 2px solid #393e41;\n  display: block;\n  height: 50px;\n  margin: 25px auto;\n  width: 50px;\n}\n\n#palette {\n  height: 50px;\n  margin: 25px auto;\n  text-align: center;\n  width: 80%;\n}\n\n#palette .color {\n  border: 2px solid #393e41;\n  border-radius: 50%;\n  box-sizing: border-box;\n  display: inline-block;\n  margin: 10px;\n  height: 50px;\n  width: 50px;\n}\n\n#wrapper {\n  min-height: 100%;\n  margin-bottom: -60px;\n}\n\nnav {\n  display: flex;\n  justify-content: space-evenly;\n}\n\na {\n  text-decoration: none;\n  color: plum;\n  font-size: 2em;\n}\na:hover {\n  background-color: blanchedalmond;\n  opacity: 0.5;\n}\n\n.nav {\n  display: inline-flex;\n  justify-content: space-evenly;\n}"
+        }
+    ]
+}
