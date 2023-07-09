@@ -40,9 +40,27 @@ function makeMove(square) {
     }
     square.classList.remove("empty");
     isXPlayerTurn = !isXPlayerTurn;
+
+    checkGameOver();
   }
 }
 
 let isXPlayerTurn = true;
 
 makeBoard();
+
+
+function checkGameOver(){
+  let squares = document.getElementsByClassName("square");
+  let isBoardFull= true;
+
+  for(let i = 0; i < squares.length; i++){
+    if(squares[i].classList.contains("empty")){
+      isBoardFull = false;
+      break;
+    }
+  }
+  if(isBoardFull){
+    alert("Game Over");
+  }
+}
