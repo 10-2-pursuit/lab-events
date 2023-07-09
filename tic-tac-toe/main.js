@@ -18,3 +18,23 @@ function makeBoard(){
        }
       }
       makeBoard(); 
+
+      function makeMove(){
+        if(this.classList.contains("empty")){
+          if(isXPlayerTurn){
+            this.textContent = 'X';
+          }else{
+            this.textContent = 'O';
+          }
+          this.classList.remove('empty');
+          isXPlayerTurn = !isXPlayerTurn;
+        }
+      }
+      let isXPlayerTurn = true; 
+
+      let squares = document.getElementsByClassName("square");
+      for (let i = 0; i < squares.length; i ++){
+        squares[i].addEventListener("click", makeMove);
+      }
+
+      
