@@ -17,7 +17,18 @@ function makeBoard(){
 
        }
       }
+
+function reset(){
+  let ticTacToe = document.getElementsByClassName("tic-tac-toe")[0];
+  while(ticTacToe.firstChild){
+    ticTacToe.removeChild(ticTacToe.firstChild);
+  }
       makeBoard(); 
+}
+
+      let resetButton = document.getElementById("reset-button");
+      resetButton.addEventListener("click", Reset);
+
 
       function makeMove(){
         if(this.classList.contains("empty")){
@@ -34,7 +45,8 @@ function makeBoard(){
 
       let squares = document.getElementsByClassName("square");
       for (let i = 0; i < squares.length; i ++){
-        squares[i].addEventListener("click", makeMove);
-      }
+        squares[i].addEventListener("click", makeMove)
+      };
 
+    
       
