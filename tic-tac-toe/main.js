@@ -1,52 +1,48 @@
-function makeBoard(){
-       let ticTacToe = document.getElementsByClassName("tic-tac-toe")[0];
-       
-       for (let i =0; i < 9; i++) {
-        let square = document.createElement("div");
-        square.classList.add ("empty", "square");
 
-        square.addEventListener("click",function() {
-          if(this.classList.contains('empty','square')){
-            console.log("square is empty");
+function makeBoard() {
+  let ticTacToe = document.querySelector(".tic-tac-toe");
 
-          }else{
-            console.log("square is not empty");
-          }
-        });
-        ticTacToe.appendChild(square); 
+  for (let i = 0; i < 9; i++) {
+    let square = document.createElement("div");
+    square.classList.add("empty", "square");
 
-       }
+    square.addEventListener("click", function() {
+      if (this.classList.contains("empty")) {
+        console.log("Square is empty");
+        makeMove(this);
+      } else {
+        console.log("Square is not empty");
       }
+    });
 
-function reset(){
-  let ticTacToe = document.getElementsByClassName("tic-tac-toe")[0];
-  while(ticTacToe.firstChild){
-    ticTacToe.removeChild(ticTacToe.firstChild);
+    ticTacToe.appendChild(square);
   }
-      makeBoard(); 
 }
 
-      let resetButton = document.getElementById("reset-button");
-      resetButton.addEventListener("click", Reset);
+function reset() {
+  let squares = document.querySelectorAll(".square");
+  squares.forEach(square => {
+    square.classList.add("empty");
+    square.textContent = "";
+  });
+  isXPlayerTurn = true;
+}
 
+let resetButton = document.querySelector("button");
+resetButton.addEventListener("click", reset);
 
-      function makeMove(){
-        if(this.classList.contains("empty")){
-          if(isXPlayerTurn){
-            this.textContent = 'X';
-          }else{
-            this.textContent = 'O';
-          }
-          this.classList.remove('empty');
-          isXPlayerTurn = !isXPlayerTurn;
-        }
-      }
-      let isXPlayerTurn = true; 
+function makeMove(square) {
+  if (square.classList.contains("empty")) {
+    if (isXPlayerTurn) {
+      square.textContent = "X";
+    } else {
+      square.textContent = "O";
+    }
+    square.classList.remove("empty");
+    isXPlayerTurn = !isXPlayerTurn;
+  }
+}
 
-      let squares = document.getElementsByClassName("square");
-      for (let i = 0; i < squares.length; i ++){
-        squares[i].addEventListener("click", makeMove)
-      };
+let isXPlayerTurn = true;
 
-    
-      
+makeBoard();
