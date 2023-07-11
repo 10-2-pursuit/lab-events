@@ -89,3 +89,9 @@ a:hover {
   background-color: blanchedalmond;
   opacity: 0.5;
 }
+
+.nav {
+  display: inline-flex;
+  justify-content: space-evenly;
+  padding-top: 20 px;
+}
